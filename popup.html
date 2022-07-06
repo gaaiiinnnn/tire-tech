@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link  rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/basic.css">
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="pop_up_wrap">
+        <div class="swiper pop_up">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/pop_up/popup1.jpg" alt="점촌점">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/pop_up/popup2.jpg" alt="북구점">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>        
+        </div>
+        <div class="btn">
+            <input type="checkbox" name="" id="close1">
+            <label for="close1">오늘 하루 열지 않기</label>
+            <button onclick="self.close()">
+                <span class="txt">닫기</span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+    
+    
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
